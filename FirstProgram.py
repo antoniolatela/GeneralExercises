@@ -1,4 +1,4 @@
 def isOdd(i):
     return True if i%2>0 else False
 
-print(isOdd(1))
+print(isOdd(2))
