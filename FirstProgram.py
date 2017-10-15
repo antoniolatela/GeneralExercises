@@ -1,4 +1,13 @@
+import unittest
+
 def isOdd(i):
     return True if i%2>0 else False
 
-print(isOdd(2))
+
+class TestEvenOrOdd(unittest.TestCase):
+
+    def test_isOdd(self):
+        self.assertTrue(isOdd(1))
+
+
+unittest.main()
