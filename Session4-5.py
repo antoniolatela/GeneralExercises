@@ -5,4 +5,6 @@ l.append(1974)
 print (l[-2], l[-1])
 
 l.append(l)
-print (l[6][6][6][0])
+l[1] = 123
+print (l[1], l[6][6][6][1])
+
