@@ -7,7 +7,7 @@ def isOdd(i):
 class TestEvenOrOdd(unittest.TestCase):
 
     def test_isOdd(self):
-        self.assertTrue(isOdd(1))
+        self.assertFalse(isOdd(-2))
 
 
 unittest.main()
