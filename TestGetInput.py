@@ -29,4 +29,5 @@ def readkey(getchar_fn=None):
     return c1 + c2 + c3 + c4
 
 i = readkey()
-print (i)
+print ("key {}".format(i))
+
