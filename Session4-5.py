@@ -43,6 +43,8 @@ class One():
 
 
 
+
+one = One()
 one = One()
 one.tuple()
 one.callExtMod()

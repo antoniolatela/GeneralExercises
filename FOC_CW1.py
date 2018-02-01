@@ -141,10 +141,19 @@ def getIEEE754FromFloat(s):
         '''in case of not float number add .0 on the right most side to call the function recursively'''
         return getIEEE754FromFloat(float(str(s)+'.0'))
 
-print("Question 4.c: " + str(getDecimal2CompNot('11000001101100000000000000000000')))
-print("Question 4.c: " + str(getUnsInt('11000001101100000000000000000000')))
+print("Question 4.a: " + str(getDecimal2CompNot('11000001101100000000000000000000')))
+print("Question 4.b: " + str(getUnsInt('11000001101100000000000000000000')))
 print("Question 4.c: " + str(getFloatFromIEEE754('11000001101100000000000000000000')))
 
 print("Question 5.a: " + getBinary2CompNot(-107, 32))
 print("Question 5.b: " + getIEEE754FromFloat(-107))
 print("Question 5.c: " + getIEEE754FromFloat(-14.375))
+
+'''
+Question 4.a: -1045430272
+Question 4.b: 3249537024
+Question 4.c: -22.0
+Question 5.a: 11111111111111111111111110010101
+Question 5.b: 11000010110101100000000000000000
+Question 5.c: 11000001011001100000000000000000
+'''
